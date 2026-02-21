@@ -1,12 +1,11 @@
 import iterators.Iterator;
-import menus.DinerMenu;
-import menus.PancakeHouseMenu;
+import menus.Menu;
 
 public class Waitress {
-    PancakeHouseMenu pancakeHouseMenu;
-    DinerMenu dinerMenu;
+    Menu pancakeHouseMenu;
+    Menu dinerMenu;
 
-    public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) {
+    public Waitress(Menu pancakeHouseMenu, Menu dinerMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;
         this.dinerMenu = dinerMenu;
     }
